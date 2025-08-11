@@ -45,20 +45,18 @@ It also **ignores whitespace-only changes** so you only see meaningful differenc
 - If you need to capture `file://` pages, enable “Allow access to file URLs” in the extension’s details.
 - Multiple baselines are stored per URL, but only the most recent one is used in comparisons in this version.
 
----
 
 ## File Structure
-'''
-/extension
-│── manifest.json # Extension manifest file
-│── popup.html # Popup UI
-│── popup.js # Main logic for capture & compare
-│── styles.css # Popup styles
-│── diff.js # Diff algorithm
-│── icons/ # Extension icons
-└── README.md # This file
-'''
----
+```
+extension/
+├── manifest.json    # Extension manifest file
+├── popup.html       # Popup UI
+├── popup.js         # Main logic for capture & compare
+├── styles.css       # Popup styles
+├── diff.js          # Diff algorithm
+├── icons/           # Extension icons
+└── README.md        # This file
+```
 
 ## License
 MIT License — free to use and modify.
