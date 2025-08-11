@@ -56,3 +56,7 @@ It also **ignores whitespace-only changes** so you only see meaningful differenc
 │── diff.js # Diff algorithm
 │── icons/ # Extension icons
 └── README.md # This file
+---
+
+## License
+MIT License — free to use and modify.
