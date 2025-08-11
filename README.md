@@ -48,6 +48,7 @@ It also **ignores whitespace-only changes** so you only see meaningful differenc
 ---
 
 ## File Structure
+'''
 /extension
 │── manifest.json # Extension manifest file
 │── popup.html # Popup UI
@@ -56,6 +57,7 @@ It also **ignores whitespace-only changes** so you only see meaningful differenc
 │── diff.js # Diff algorithm
 │── icons/ # Extension icons
 └── README.md # This file
+'''
 ---
 
 ## License
