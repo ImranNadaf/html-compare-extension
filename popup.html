@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Baseline Diff</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>HTML Baseline Diff</h2>
+    <div class="controls">
+      <button id="captureBtn">Capture</button>
+      <button id="compareBtn">Compare</button>
+    </div>
+    <div class="status" id="status">Idle</div>
+
+    <div class="diff-container">
+      <div class="diff-column">
+        <h3>Baseline</h3>
+        <div id="output-old" class="output"></div>
+      </div>
+      <div class="diff-column">
+        <h3>Current</h3>
+        <div id="output-new" class="output"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="diff.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
